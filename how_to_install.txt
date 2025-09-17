@@ -1,0 +1,25 @@
+Instructions d'installation et d'exécution  :
+
+1. Assurez-vous d'avoir Python 3.8 ou une version ultérieure installée sur votre système.
+
+2. Créez un environnement virtuel (recommandé) :
+   
+   python -m venv mon_env
+
+3. Activez l'environnement virtuel :
+
+Sur Windows :
+
+.\mon_env\Scripts\activate
+
+4. Installez les dépendances :
+
+pip install -r requirements.txt
+
+5. Enregistrez le code principal dans un fichier nommé EMVGC_LGSP.py
+
+6. Exécutez le script :
+
+python EMVGC_LGSP.py
+
+7. Les résultats du clustering s'afficheront dans la console et une visualisation TSNE apparaîtra.
